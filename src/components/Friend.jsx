@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function Friend({ friend }) {
   return (
     <li>
@@ -19,9 +21,8 @@ export default function Friend({ friend }) {
           Ты c {friend.name} в расчете.
         </p>
       )}
-
-        <button className="button">Выбрать</button>
-
+     <Button>Select</Button>
     </li>
+    
   );
 }
